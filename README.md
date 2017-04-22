@@ -5,7 +5,7 @@ Prerequisites:
 - Install Dokku on your server
 - It's helpful to setup an alias to make running commands on dokku from your own computer
 
-	alias dokku='ssh -t dokku@your-ip'
+`$ alias dokku='ssh -t dokku@your-ip'`
 
 
 ## Download Metabase jar
