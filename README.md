@@ -38,19 +38,19 @@ dokku mysql:link your-other-dokku-app metabase
 
 # Deploy
 ```
-git remote add dokku dokku@your-dokku-host.com:metabase
-git commit -am 'deploy'
-git push dokku master
+$ git remote add dokku dokku@your-dokku-host.com:metabase
+$ git commit -am 'deploy'
+$ git push dokku master
 ```
 
 # Updating Metabase
 
-- Download the new jar from Metabase and replace the old jar
+- Download the new jar from Metabase and replace the old jar.
 
 ```
-	$ git add metabase.jar
-	$ git commit -m 'Upgrade to v...'
-	$ git push dokku master
+$ git add metabase.jar
+$ git commit -m 'Upgrade to v...'
+$ git push dokku master
 ```
 
 You may have to wait a few moments for migrations to run. To check on the progress run the following commnad
